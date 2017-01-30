@@ -84,7 +84,7 @@ You're all set!  Now let's see how can you customize this component:
 
 **`colorInfoClassName`**  - `string` /  `""` - additional class for color info.
 
-** `component`** - `React.Component` / `null` - custom Box component.
+**`component`** - `React.Component` / `null` - custom Box component.
 
 ### Custom components
 
