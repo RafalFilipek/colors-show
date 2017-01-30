@@ -10,7 +10,7 @@ _Present your application colors with style._
 
 ### TL;DR; Demo
 
-[colors-show.now.sh](htttps://colors-show.now.sh)
+[**colors-show.now.sh**](https://colors-show.now.sh)
 
 
 ### Installation
