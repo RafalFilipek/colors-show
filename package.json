@@ -1,0 +1,73 @@
+{
+  "name": "colors-show",
+  "version": "v0.0.1",
+  "description": "Present your application colors with style.",
+  "main": "lib/index.js",
+  "jsnext:main": "src/index.js",
+  "module": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "lint": "eslint src __test__",
+    "compile": "babel -d lib src",
+    "compile:watch": "babel -w -d lib src",
+    "clean": "rm -rf lib",
+    "prepublish": "npm run clean && npm test && npm run compile"
+  },
+  "files": [
+    "*.md",
+    "__test__",
+    "LICENSE",
+    "lib",
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RafalFilipek/colors-show.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RafalFilipek/colors-show/issues"
+  },
+  "author": "Rafał Filipek <rafal.filipek@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "colors",
+    "showcase",
+    "storybook",
+    "react"
+  ],
+  "jest": {
+    "collectCoverage": true,
+    "coverageDirectory": "./.coverage",
+    "unmockedModulePathPatterns": [
+      "node_modules/react/",
+      "node_modules/enzyme/"
+    ]
+  },
+  "devDependencies": {
+    "babel-cli": "6.22.2",
+    "babel-eslint": "7.1.1",
+    "babel-plugin-transform-class-properties": "6.22.0",
+    "babel-plugin-transform-flow-strip-types": "6.22.0",
+    "babel-plugin-transform-object-rest-spread": "6.22.0",
+    "babel-preset-latest": "6.22.0",
+    "babel-preset-react": "6.22.0",
+    "enzyme": "2.7.1",
+    "eslint": "3.14.1",
+    "eslint-config-airbnb": "14.0.0",
+    "eslint-plugin-flowtype-errors": "2.0.3",
+    "eslint-plugin-import": "2.2.0",
+    "eslint-plugin-jsx-a11y": "3.0.2",
+    "eslint-plugin-react": "6.9.0",
+    "flow-bin": "0.38.0",
+    "jest": "18.1.0",
+    "publish-please": "2.2.0",
+    "react-addons-test-utils": "15.4.2",
+    "react-dom": "15.4.2",
+    "release": "1.1.5"
+  },
+  "dependencies": {
+    "react": "^15.4.2",
+    "styled-components": "1.4.2"
+  }
+}

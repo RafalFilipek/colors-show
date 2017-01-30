@@ -1,0 +1,10 @@
+import styled from 'styled-components';
+
+const Container = styled.div`
+  display: flex;
+  flex-direction: column;
+  width: 480px;
+`;
+Container.displayName = 'Container';
+
+export default Container;

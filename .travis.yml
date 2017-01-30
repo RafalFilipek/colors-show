@@ -1,0 +1,12 @@
+sudo: false
+language: node_js
+node_js:
+- stable
+cache:
+  directories:
+  - node_modules
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
+branches:
+  only:
+  - master
