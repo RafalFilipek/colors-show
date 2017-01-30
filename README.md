@@ -28,7 +28,7 @@ npm install colors-show
 First, you have to import the component
 
 ```jsx
-  import ColorsShow from 'react-dates-range-picker';
+  import ColorsShow from 'colors-show';
 ```
 
 Lets say, you have some color guides in your application:
