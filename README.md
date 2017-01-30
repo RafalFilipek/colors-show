@@ -10,7 +10,7 @@ _Present your application colors with style._
 
 ### TL;DR; Demo
 
-[**colors-show.now.sh**](htttps://colors-show.now.sh)
+[colors-show.now.sh](htttps://colors-show.now.sh)
 
 
 ### Installation
@@ -113,15 +113,15 @@ In both cases component will get few props:
 As you can see there is option to provide additional CSS classes for all elements. Lets look at component structure:
 
 ```
-	<Container>               // containerClassName
-		<Name />                // wrapperClassName
-		<Boxes>
-			<Box>                 // boxClassName
-				<ColorInfo>         // colorInfoClassName
-					<span>code</span>
-					<span>name</span>
-				</ColorInfo>
-			</Box>
-		</Boxes>
-	</Container>
+  <Container>                 // containerClassName
+    <Name />                  // wrapperClassName
+    <Boxes>
+      <Box>                   // boxClassName
+        <ColorInfo>           // colorInfoClassName
+          <span>code</span>
+          <span>name</span>
+        </ColorInfo>
+      </Box>
+    </Boxes>
+  </Container>
 ```
