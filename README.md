@@ -2,7 +2,7 @@
 
 ---
 
-[![Build Status](https://travis-ci.org/RafalFilipek/colors-showr.svg?branch=master)](https://travis-ci.org/RafalFilipek/colors-show)
+[![Build Status](https://travis-ci.org/RafalFilipek/colors-show.svg?branch=master)](https://travis-ci.org/RafalFilipek/colors-show)
 [![Code Coverage](https://img.shields.io/codecov/c/github/RafalFilipek/colors-show/master.svg)](https://codecov.io/gh/RafalFilipek/colors-show)
 [![Code Style](https://img.shields.io/badge/codestyle-airbnb-brightgreen.svg)](https://github.com/airbnb/javascript)
 
