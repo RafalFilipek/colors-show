@@ -1,5 +1,5 @@
 node_modules/
-lib.coverage/
+lib/
 flow-typed/
 dist/
 .coverage/
