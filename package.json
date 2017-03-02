@@ -1,6 +1,6 @@
 {
   "name": "colors-show",
-  "version": "v0.0.1",
+  "version": "v0.0.2",
   "description": "Present your application colors with style.",
   "main": "lib/index.js",
   "jsnext:main": "src/index.js",
